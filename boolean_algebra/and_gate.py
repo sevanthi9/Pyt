@@ -22,9 +22,9 @@ def and_gate(input_1: int, input_2: int) -> int:
 
     >>> and_gate(0, 0)
     0
-    >>> and_gate(1, 1)
+    >>> and_gate(0, 1)
     0
-    >>> and_gate(1, 0)
+    >>> and_gate(0, 0)
     0
     >>> and_gate(1, 1)
     1
